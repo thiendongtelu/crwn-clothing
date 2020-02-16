@@ -12,7 +12,7 @@ const FormInput = ({ handleChange, label, ...otherProps }) => (
         } form-input-label`}
       >
         {label}
-        {console.log(otherProps.value.length)}
+       
       </label>
     ) : null}
   </div>
